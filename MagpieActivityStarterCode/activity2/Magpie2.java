@@ -43,33 +43,26 @@ public class Magpie2
 			response = "Tell me more about your family.";
 		}
 		else if (statement.indexOf("dog") >= 0
-			 	|| statement.indexOf("cat") >= 0)
-		{
+			 	|| statement.indexOf("cat") >= 0){
 			response = "Tell me more about your pets.";	
 		}
-		else if (statement.indexOf("Mr. MacMillan") >= 0)
-		{
+		else if (statement.indexOf("Mr. MacMillan") >= 0){
 			response = "He must be good at teaching.";	
 		}
-		else if (statement.trim().length() == 0)
-		{
+		else if (statement.trim().length() == 0){
 			response = "Please enter at least one character.";	
 		}
-		else if (statement.indexOf("noob") >= 0)
-		{
-			respone = "Please don't use the word noob.";
+		else if (statement.indexOf("why") >= 0){
+			respone = "Why what?";
 		}
-		else if (statement.indexOf("lol") >= 0)
-		{
-			respone = "HAHAHAHAHAHAHA";
+		else if (statement.indexOf("funny") >= 0){
+			respone = "nice";
 		}
-		else if (statement.indexOf("poop") >= 0)
-		{
-			respone = "I like spongebob tooooooo!!!!!!";
+		else if (statement.indexOf("too") >= 0){
+			respone = "I like that too!";
 		}
 		
-		else
-		{
+		else{
 			response = getRandomResponse();
 		}
 		return response;
@@ -104,11 +97,11 @@ public class Magpie2
 		}
 		else if (whichResponse == 4)
 		{
-			response = "Take the L you human.";
+			response = "Hmm.";
 		}
 		else if (whichResponse == 5)
 		{
-			respone = "What are you doin?";
+			respone = "Thinking.";
 		}
 
 		return response;
